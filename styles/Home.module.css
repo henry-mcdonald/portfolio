@@ -120,3 +120,12 @@
     flex-direction: column;
   }
 }
+
+.henryTitle{
+  font-size:3vw;
+  color:blue;
+}
+
+.henryFace{
+  width:30vw;
+}

@@ -6,7 +6,7 @@ export default function About () {
         <div>
             <h1>About Page</h1>
 
-            <p className={styles.extraGreen}>I am a super cool person who does things!</p>
+            <p className={styles.extraGreen}>Testing text changes v3</p>
 
             <Image
                 src='/vercel.svg'

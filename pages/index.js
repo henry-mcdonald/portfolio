@@ -1,7 +1,25 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import {useEffect, useState} from 'react'
 
 export default function Home() {
+  const [imgSrc, setImgSrc] = useState("mysteryman.jpeg")
+  const [topMsg, setTopMsg] = useState("Have you seen this man?")
+  const [bottomMsg, setBottomMsg] = useState("")
+  
+  const reveal = () => {
+    setImgSrc("/henrymcdonaldlinkedin.jpeg")
+    setTopMsg("Welcome")
+    setBottomMsg("To The Henry McDonald Experience")
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll',reveal)
+    window.addEventListener('click',reveal)
+
+  },[])
+
   return (
     <div className={styles.container}>
       <Head>
@@ -10,13 +28,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        {/* <h1 className={styles.title}>
+          Welcome to the Henry McDonald Experience<a href="https://nextjs.org"></a>
+        </h1> */}
+        <p className={styles.henryTitle}>{topMsg}</p>
+
+
+
+
+
+        <img class={styles.henryFace} src={imgSrc}></img>
+
+        <p className={styles.henryTitle}>{bottomMsg}</p>
+
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+
         </p>
 
         <div className={styles.grid}>
