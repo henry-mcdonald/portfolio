@@ -1,3 +1,5 @@
+
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -124,8 +126,11 @@
 .henryTitle{
   font-size:3vw;
   color:blue;
+  text-align:center;
+  margin:auto;
 }
 
 .henryFace{
   width:30vw;
+  margin:auto;
 }
