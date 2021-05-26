@@ -27,7 +27,48 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      
+
       <main className={styles.main}>
+
+      Henry's Projects:
+</h1>
+
+<br />
+<br />
+
+<div>
+Just Read The Instructions (in-browser game):
+
+<a>https://henry-mcdonald.github.io/</a>
+
+</div>
+
+<br />
+<br />
+
+<div>
+Stonkhub (trading application)
+<a>https://stonkhub-freshstart.herokuapp.com/</a>
+
+</div>
+
+<br />
+<br />
+
+<div>
+RelateD (newsfeed application)
+<a>https://related.netlify.app/</a>
+
+</div>
+
+<br />
+<br />
+
+<div>
+portfolioDev (self-serve HTML hosting)
+<a>https://main--portfoliodevwebsite.netlify.app/</a>
+
         {/* <h1 className={styles.title}>
           Welcome to the Henry McDonald Experience<a href="https://nextjs.org"></a>
         </h1> */}
@@ -42,43 +83,6 @@ export default function Home() {
         <p className={styles.henryTitle}>{bottomMsg}</p>
 
         <h1>
-Henry's Projects:
-</h1>
-
-<br />
-<br />
-
-<div>
-Just Read The Instructions (in-browser game):
-
-<p>https://henry-mcdonald.github.io/</p>
-
-</div>
-
-<br />
-<br />
-
-<div>
-Stonkhub (trading application)
-<p>https://stonkhub-freshstart.herokuapp.com/</p>
-
-</div>
-
-<br />
-<br />
-
-<div>
-RelateD (newsfeed application)
-<p>https://related.netlify.app/</p>
-
-</div>
-
-<br />
-<br />
-
-<div>
-portfolioDev (self-serve HTML hosting)
-<p>https://main--portfoliodevwebsite.netlify.app/</p>
 
 </div>
 
