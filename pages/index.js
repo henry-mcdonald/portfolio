@@ -31,6 +31,7 @@ export default function Home() {
 
       <main className={styles.main}>
 
+<h1>
       Henry's Projects:
 </h1>
 
@@ -82,7 +83,6 @@ portfolioDev (self-serve HTML hosting)
 
         <p className={styles.henryTitle}>{bottomMsg}</p>
 
-        <h1>
 
 </div>
 
