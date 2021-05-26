@@ -40,16 +40,18 @@ export default function Home() {
 
 <div>
 Just Read The Instructions (in-browser game):
+<br />
 
 <a>https://henry-mcdonald.github.io/</a>
 
 </div>
 
 <br />
-<br />
 
 <div>
-Stonkhub (trading application)
+Stonkhub (trading application): 
+<br />
+
 <a>https://stonkhub-freshstart.herokuapp.com/</a>
 
 </div>
@@ -58,17 +60,20 @@ Stonkhub (trading application)
 <br />
 
 <div>
-RelateD (newsfeed application)
+RelateD (newsfeed application): 
+<br />
+
 <a>https://related.netlify.app/</a>
 
 </div>
 
 <br />
+portfolioDev (self-serve HTML hosting): 
 <br />
 
-<div>
-portfolioDev (self-serve HTML hosting)
 <a>https://main--portfoliodevwebsite.netlify.app/</a>
+<div>
+
 
         {/* <h1 className={styles.title}>
           Welcome to the Henry McDonald Experience<a href="https://nextjs.org"></a>
@@ -86,7 +91,6 @@ portfolioDev (self-serve HTML hosting)
 
 </div>
 
-&lt;&gt;&lt;&gt;&lt;&gt;
       </main>
 
       <footer className={styles.footer}>
