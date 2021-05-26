@@ -41,40 +41,48 @@ export default function Home() {
 
         <p className={styles.henryTitle}>{bottomMsg}</p>
 
+        <h1>
+Henry's Projects:
+</h1>
 
-        <p className={styles.description}>
+<br />
+<br />
 
-        </p>
+<div>
+Just Read The Instructions (in-browser game):
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+<p>https://henry-mcdonald.github.io/</p>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+</div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+<br />
+<br />
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+<div>
+Stonkhub (trading application)
+<p>https://stonkhub-freshstart.herokuapp.com/</p>
+
+</div>
+
+<br />
+<br />
+
+<div>
+RelateD (newsfeed application)
+<p>https://related.netlify.app/</p>
+
+</div>
+
+<br />
+<br />
+
+<div>
+portfolioDev (self-serve HTML hosting)
+<p>https://main--portfoliodevwebsite.netlify.app/</p>
+
+</div>
+
+&lt;&gt;&lt;&gt;&lt;&gt;
       </main>
 
       <footer className={styles.footer}>
@@ -83,8 +91,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          {' '}
+          {/* <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} /> */}
         </a>
       </footer>
     </div>
