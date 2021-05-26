@@ -42,7 +42,7 @@ export default function Home() {
 Just Read The Instructions (in-browser game):
 <br />
 
-<a>https://henry-mcdonald.github.io/</a>
+<a href="https://henry-mcdonald.github.io/">https://henry-mcdonald.github.io/</a>
 
 </div>
 
@@ -52,7 +52,7 @@ Just Read The Instructions (in-browser game):
 Stonkhub (trading application): 
 <br />
 
-<a>https://stonkhub-freshstart.herokuapp.com/</a>
+<a href="https://stonkhub-freshstart.herokuapp.com/">https://stonkhub-freshstart.herokuapp.com/</a>
 
 </div>
 
@@ -63,7 +63,7 @@ Stonkhub (trading application):
 RelateD (newsfeed application): 
 <br />
 
-<a>https://related.netlify.app/</a>
+<a href="https://related.netlify.app/">https://related.netlify.app/</a>
 
 </div>
 
@@ -71,7 +71,7 @@ RelateD (newsfeed application):
 portfolioDev (self-serve HTML hosting): 
 <br />
 
-<a>https://main--portfoliodevwebsite.netlify.app/</a>
+<a href="https://main--portfoliodevwebsite.netlify.app/">https://main--portfoliodevwebsite.netlify.app/</a>
 <div>
 
 
