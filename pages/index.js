@@ -1,95 +1,93 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
+import Project from '../components/Project'
+import WebPageLink from '../components/webPageLink'
 
 export default function Home() {
   const [imgSrc, setImgSrc] = useState("mysteryman.jpeg")
-  const [topMsg, setTopMsg] = useState("Have you seen this man?")
+  const [topMsg, setTopMsg] = useState("Have you seen this Software Engineer?")
   const [bottomMsg, setBottomMsg] = useState("")
-  
+
   const reveal = () => {
     setImgSrc("/henrymcdonaldlinkedin.jpeg")
-    setTopMsg("Welcome")
-    setBottomMsg("To The Henry McDonald Experience")
+    setTopMsg("Welcome to")
+    setBottomMsg("The Henry McDonald Experience")
   }
 
-  useEffect(()=>{
-    window.addEventListener('scroll',reveal)
-    window.addEventListener('click',reveal)
+  useEffect(() => {
+    window.addEventListener('scroll', reveal)
+    window.addEventListener('click', reveal)
 
-  },[])
+  }, [])
 
   return (
+
     <div className={styles.container}>
+
+      <div style={{display:'flex',justifyContent:'space-between'}}>
+
+      <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
+        <WebPageLink 
+        name="Projects"
+        link="#Projects"
+        />
+        <WebPageLink />
+      </div>
+        <div>
+      <p className={styles.henryTitle}>{topMsg}</p>
+      <img class={styles.henryFace} src={imgSrc}></img>
+
+      <p className={styles.henryTitle}>{bottomMsg}</p>
+      </div>
+
+      </div>
       <Head>
-        <title>Create Next App</title>
+        <title>Welcome..</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
+
 
       <main className={styles.main}>
 
-<h1>
-      Henry's Projects:
+        <h1 style={{ fontSize: '2.5vw' }} id="Projects">
+          Henry's Projects:
 </h1>
 
-<br />
-<br />
-
-<div>
-Just Read The Instructions (in-browser game):
-<br />
-
-<a href="https://henry-mcdonald.github.io/">https://henry-mcdonald.github.io/</a>
-
-</div>
-
-<br />
-
-<div>
-Stonkhub (trading application): 
-<br />
-
-<a href="https://stonkhub-freshstart.herokuapp.com/">https://stonkhub-freshstart.herokuapp.com/</a>
-
-</div>
-
-<br />
-<br />
-
-<div>
-RelateD (newsfeed application): 
-<br />
-
-<a href="https://related.netlify.app/">https://related.netlify.app/</a>
-
-</div>
-
-<br />
-portfolioDev (self-serve HTML hosting): 
-<br />
-
-<a href="https://main--portfoliodevwebsite.netlify.app/">https://main--portfoliodevwebsite.netlify.app/</a>
-<div>
+        <Project
+          name="Just Read The Instructions"
+          link="https://henry-mcdonald.github.io/"
+          imgsrc="../../justreadtheinstructions.png"
+        />
+        <Project
+          name="Stonkhub"
+          link="https://stonkhub-freshstart.herokuapp.com/"
+          imgsrc="../../stonkhub.png"
+        />
+        <Project
+          name="relateD"
+          link="https://related.netlify.app/"
+          imgsrc="../../relateD.png"
+        />
+        <Project
+          name="portfolioDev"
+          link="https://main--portfoliodevwebsite.netlify.app/"
+          imgsrc="../../portfoliodev.png"
+        />
 
 
-        {/* <h1 className={styles.title}>
+        <div>
+
+
+          {/* <h1 className={styles.title}>
           Welcome to the Henry McDonald Experience<a href="https://nextjs.org"></a>
         </h1> */}
-        <p className={styles.henryTitle}>{topMsg}</p>
 
 
 
-
-
-        <img class={styles.henryFace} src={imgSrc}></img>
-
-        <p className={styles.henryTitle}>{bottomMsg}</p>
-
-
-</div>
+        </div>
 
       </main>
 

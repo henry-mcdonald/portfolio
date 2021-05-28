@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
         <title>MY CAT PORTFOLIO</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Navbar></Navbar>
 
     <Component {...pageProps} />
 
