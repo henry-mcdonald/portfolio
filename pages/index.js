@@ -46,7 +46,7 @@ export default function Home() {
             link="#Contact"
           />
           <div style={{ alignContent: 'center' }}>
-            <a target="_blank" href="../../henrymcdonald.pdf" style={{ fontSize: '1.8vw', color: 'blue' }}>Resume</a>
+            <a target="_blank" href="../../henrymcdonald.pdf" style={{ fontSize: '5vw', color: 'blue' }}>Resume</a>
 
 
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <h1 style={{ fontSize: '2.5vw' }} id="Projects">
+        <h1 style={{ fontSize: '25' }} id="Projects">
           Henry's Projects:
 </h1>
 

@@ -1,7 +1,7 @@
 const Skills = () => {
     return(<div>
-        <h1 style={{fontSize:'1.5vw',textAlign:'center'}}>Skills</h1>
-        <p style={{fontSize:'1.2vw'}}>
+        <h1 style={{fontSize:'18',textAlign:'center'}}>Skills</h1>
+        <p style={{fontSize:'12'}}>
             JavaScript, ES6, 
             Java, React.js, HTML, 
             CSS, Bootstrap 4, SCSS, LESS, Node.js, Express.js, 

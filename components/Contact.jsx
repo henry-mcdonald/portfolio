@@ -2,8 +2,8 @@ const Contact = () => {
 return(
     <div>
 
-        <h1 id="Contact" style={{fontSize:'1.8vw',textAlign:'center'}}>Contact</h1>
-        <p style={{fontSize:'1.2vw'}}>Looking to Network? Found the Unifying Theory of Everything? Heard a funny joke? Please give me a call immediately and without hesitation</p>
+        <h1 id="Contact" style={{fontSize:'18',textAlign:'center'}}>Contact</h1>
+        <p style={{fontSize:'12'}}>Looking to Network? Found the Unifying Theory of Everything? Heard a funny joke? Please give me a call immediately and without hesitation</p>
         <ul>
             <li>+1 (847)-730-7054</li>
             <li>a.henrymcdonald.a@gmail.com</li>

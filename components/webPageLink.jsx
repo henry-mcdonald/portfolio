@@ -4,7 +4,7 @@ const WebPageLink = ({name,link}) => {
     
     return(
         <div style={{alignContent:'center'}}>
-            <a href={link} style={{fontSize:'1.8vw',color:'blue',whiteSpace:'nowrap'}}>{name}</a>
+            <a href={link} style={{fontSize:'5vw',color:'blue',whiteSpace:'nowrap'}}>{name}</a>
 
 
         </div>

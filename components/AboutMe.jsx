@@ -1,8 +1,8 @@
 const AboutMe = () => {
     return(
         <div>
-            <h1 id="AboutMe" style={{fontSize:'1.8vw',textAlign:'center'}}>About Me</h1>
-    <p style={{fontSize:'1.2vw'}}>
+            <h1 id="AboutMe" style={{fontSize:'18',textAlign:'center'}}>About Me</h1>
+    <p style={{fontSize:'12'}}>
 I am a full stack engineer with a passion for designing 
 for people. With 2 years of 
 experience in the realm of software and analytics, 
