@@ -31,7 +31,7 @@ export default function Home() {
 
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
 
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'left', padding: '20%' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'left' }}>
           <WebPageLink
             name="Projects"
             link="#Projects"
