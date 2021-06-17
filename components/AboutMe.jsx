@@ -9,8 +9,7 @@ experience in the realm of software and analytics,
 I have a strong foundation in project management, working 
 in fast-paced cross functional teams across continents and
  timezones, and leveraging technology in a collaborative 
- environment to build custom solutions to solve business p
- roblems. I am excited about building scalable, modern, 
+ environment to build custom solutions to solve business problems. I am excited about building scalable, modern, 
  robust, and cost-effective solutions, while always
   focusing first on the end user. 
 
